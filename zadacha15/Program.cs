@@ -18,7 +18,7 @@ else if (dayNum == 3)
 }
 else if (dayNum == 4)
 {
-    Console.WriteLine("Четверг это будний день... Не время расслабляться!");
+    Console.WriteLine("Четверг - это будний день... Не время расслабляться!");
 }
 else if (dayNum == 5)
 {
