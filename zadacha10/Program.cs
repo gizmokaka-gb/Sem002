@@ -2,5 +2,7 @@
 
 Console.WriteLine("Введите трехзначное число: ");
 string num = Console.ReadLine();
-int number = int.Parse (num);
+
+int number = int.Parse (num); // если необходимо закрыть программу при вводе значения отличного от числа.
+
 Console.WriteLine($"Вторая цифра числа {num} - это {num[1]}.");
