@@ -5,4 +5,11 @@ string num = Console.ReadLine();
 
 int number = int.Parse(num); // если необходимо закрыть программу при вводе значения отличного от числа.
 
-Console.WriteLine($"Вторая цифра числа {num} - это {num[1]}.");
+if (number > 99 && number < 1000)
+{
+    Console.WriteLine($"Вторая цифра числа {num} - это {num[1]}.");
+}
+else
+{
+    Console.WriteLine($"Число {num} не является трехзначным.");
+}
